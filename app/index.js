@@ -8,6 +8,7 @@ export default function App() {
             <Text>Main Page</Text>
             <LinkButton page="about" title="Go To About Page"/>
             <LinkButton page="contact" title="Go To Contact Us"/>
+            <LinkButton page="profile" title="Go To Profile Page"/>
         </View>
     );
 }
