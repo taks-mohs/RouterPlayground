@@ -8,6 +8,7 @@ export default function About() {
       
       <LinkButton page="/" title="Go Back Home"/>
       <LinkButton page="contact" title="Go To Contact Us"/>
+      <LinkButton page="contact" title="Go To Contact Us"/>
     </View>
   );
 }
