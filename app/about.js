@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 
 import LinkButton from '../components/LinkButton';
+import myColors from '../constants/colorSheet';
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#67eff1',
+    backgroundColor: myColors.primary,
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },
