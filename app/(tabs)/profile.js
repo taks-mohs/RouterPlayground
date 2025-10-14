@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { VictoryBar, VictoryChart, VictoryTheme } from 'victory-native';
 import LinkButton from '../../components/LinkButton';
-import myColors from '../../constants/colorSheet';
 
 const data1 = [
   { quarter: 1, earnings: 13000 },
@@ -36,7 +35,7 @@ export default function Profile() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: myColors.primaryLight,
+    backgroundColor: "#102842",
     alignItems: 'center',
     justifyContent: 'center',
   },
