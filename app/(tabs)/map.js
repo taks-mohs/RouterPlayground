@@ -4,8 +4,9 @@ import LinkButton from '../../components/LinkButton';
 export default function Map() {
   return (
     <View style={styles.container}>
-      <Text>Map Page</Text>
-       <LinkButton page="/" title="Go Back Home"/>
+        <Text>Map Page</Text>
+        <LinkButton page="/" title="Go Back Home"/>
+        <LinkButton page="about" title="Go to About"/>
     </View>
   );
 }
