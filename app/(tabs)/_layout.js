@@ -7,8 +7,9 @@ export default function TabLayout() {
                 headerShown: false
             }}
         >
-            <Tabs.Screen name="map" options={{title: "Map Page"}}/>
-            <Tabs.Screen name="profile" options={{title: "Profile Page"}}/>
+            <Tabs.Screen name="map" options={{ title: "Map Page" }} />
+            <Tabs.Screen name="profile" options={{ title: "Profile Page" }} />
+            <Tabs.Screen name="animated" options={{ title: "Animation Page" }} />
         </Tabs>
     );
 }
